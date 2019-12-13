@@ -8,18 +8,10 @@
     android:orientation="vertical"
     >
 
-    <TextView
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/pager"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Pada suatu hari ada kancil ngambil timun. TImun dicuri lagi sama tetangga kancil bla bla bal"
-        android:textSize="20sp"
-        />
-
-    <Button
-        android:id="@+id/btn_selanjutnya"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="selanjutnya"
+        android:layout_height="match_parent"
         />
 
 </LinearLayout>
